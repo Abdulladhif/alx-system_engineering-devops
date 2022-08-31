@@ -17,10 +17,6 @@ Repo:
 
 1. What's in there?
 
-mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
-
 Display the contents list of your current directory.
 
 Example:
@@ -88,6 +84,7 @@ Example:
 
 $ ./4-listmorefiles
 total 32
+
 drwxr-xr-x@ 6 sylvain staff 204 Jan 25 00:29 .
 drwxr-xr-x@ 43 sylvain staff 1462 Jan 25 00:19 ..
 -rwxr-xr-x@ 1 sylvain staff 18 Jan 25 00:19 0-current_working_directory
@@ -115,7 +112,9 @@ Display current directory contents.
 Example:
 
 $ ./5-listfilesdigitonly
+
 total 32
+
 drwxr-xr-x@ 6 501 20 204 Jan 25 00:29 .
 drwxr-xr-x@ 43 501 20 1462 Jan 25 00:19 ..
 -rwxr-xr-x@ 1 501 20 18 Jan 25 00:19 0-current_working_directory
@@ -230,9 +229,6 @@ Repo:
 -------------------------------------------------------------------------------
 11. Lists
 
-mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 
@@ -244,10 +240,6 @@ Repo:
 
 --------------------------------------------------------------------------------
 12. File type
-
-mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
 
@@ -270,7 +262,9 @@ Repo:
 Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
 
 ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
+
 total 144
+
 drwxrwxr-x  2 ubuntu ubuntu   4096 Sep 20 03:24 .
 drwxrwxrwt 12 root   root   139264 Sep 20 03:24 ..
 ubuntu@ip-172-31-63-244:/tmp/sym$./13-symbolic_link
