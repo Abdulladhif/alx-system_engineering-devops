@@ -11,9 +11,9 @@ julien@ubuntu:/tmp/h$ tail -1 0-iam_betty | wc -c
 julien@ubuntu:/tmp/h$
 	
 Repo:
-	GitHub repository: alx-system_engineering-devops
-	Directory: 0x01-shell_permissions
-	File: 0-iam_betty
+ GitHub repository: alx-system_engineering-devops
+ Directory: 0x01-shell_permissions
+ File: 0-iam_betty
 
 1. Who am I
 Write a script that prints the effective username of the current user.
@@ -25,4 +25,19 @@ Write a script that prints the effective username of the current user.
 Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x01-shell_permissions
-File: 1-who_am_i	
+File: 1-who_am_i
+
+2. Groups
+Write a script that prints all the groups the current user is part of.
+
+julien@ubuntu:/tmp/h$ ./2-groups
+julien adm cdrom sudo dip plugdev lpadmin sambashare
+julien@ubuntu:/tmp/h$ 
+
+Note: depending on the user, you will get a different output.
+
+Repo:
+ GitHub repository: alx-system_engineering-devops
+ Directory: 0x01-shell_permissions
+ File: 2-groups
+	
