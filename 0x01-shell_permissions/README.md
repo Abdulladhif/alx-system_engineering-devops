@@ -14,3 +14,15 @@ Repo:
 	GitHub repository: alx-system_engineering-devops
 	Directory: 0x01-shell_permissions
 	File: 0-iam_betty
+
+1. Who am I
+Write a script that prints the effective username of the current user.
+
+ julien@ubuntu:/tmp/h$ ./1-who_am_i
+ julien
+ julien@ubuntu:/tmp/h$ 
+
+Repo:
+GitHub repository: alx-system_engineering-devops
+Directory: 0x01-shell_permissions
+File: 1-who_am_i	
